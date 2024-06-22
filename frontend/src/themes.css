@@ -1,0 +1,176 @@
+.default {
+    --bg-color: rgb(255, 245, 224);
+    --secondary-bg-color: rgb(20, 30, 70);
+
+    --info-input-bg: rgb(255, 255, 255);
+    --info-txt-color: rgb(255, 255, 255);
+    --input-placeholder-color: rgb(0, 0, 0);
+    --neutral-txt-color: rgb(0, 0, 0);
+    --comment-txt-typing-color: rgb(0, 0, 0);
+    --neutral-comment-txt-color: rgb(0, 0, 0);
+    --default-input-bg-selected: rgb(219, 219, 219);
+
+    --post-card-border: rgb(123, 123, 136);
+    --post-box-shadow: rgb(0, 0, 0);
+    --comment-shadow: rgb(0, 88, 220);
+
+    --dropdown-button-bg: rgb(77, 138, 153);
+    --dropdown-button-bg-hvr: rgb(91, 161, 179);
+
+    --default-post-dialog-border: rgb(0, 0, 0);
+    --dialog-bg: rgba(0, 0, 0, 0.55);
+
+    --options-dialog-window-bg: rgb(39, 50, 94);
+    --options-dialog-button-hvr: rgb(43, 65, 151);
+
+    --submit-button-color: rgb(0, 128, 0);
+    --submit-button-color-hvr: rgb(154, 205, 50);
+
+    --auth-form-submit-button: rgb(214, 218, 200);
+    --auth-form-submit-button-hvr: rgb(173, 179, 152);
+    --auth-method-button-color-hvr: rgb(124, 181, 243);
+    --auth-input-txt-color: rgb(0, 0, 0);
+
+    --default-icon-color: rgb(0, 0, 0);
+    --active-icon-color: rgb(255, 255, 255);
+    --box-icon: rgb(0, 0, 0);
+    --box-icon-hvr: rgb(18, 38, 119);
+
+    --settings-username-change-container: rgb(116, 116, 116);
+    --settings-bg-color: rgb(0, 0, 0);
+
+    --account-menu-bg: rgb(255, 255, 255);
+    --account-menu-selected: rgb(210, 210, 210);
+    --account-menu-not-selected-hvr: rgb(245, 245, 245);
+    --selected-icon-fill: rgb(0, 0, 0);
+
+    --search-bar-bg: rgb(255, 255, 255);
+    --search-bar-filter-icon-fill: rgb(0, 54, 177);
+    --search-bar-txt-color: rgb(0, 0, 0);
+
+    --delete-account-button-txt: rgb(255, 255, 255);
+    --delete-clear-button: rgb(195, 0, 0);
+    --delete-clear-button-hvr: rgb(255, 0, 0);
+
+    --filter-box-bg: rgb(255, 255, 255);
+    --filter-box-txt-color: rgb(0, 0, 0);
+    --theme-list-container-bg: rgb(20, 30, 70);
+}
+
+.dark {
+    --bg-color: rgb(104, 109, 118);
+    --secondary-bg-color: rgb(55, 58, 64);
+
+    --info-input-bg: rgb(220, 95, 0);
+    --info-txt-color: rgb(238, 238, 238);
+    --input-placeholder-color: rgb(255, 255, 255);
+    --neutral-txt-color: rgb(55, 58, 64);
+    --comment-txt-typing-color: rgb(0, 0, 0);
+    --neutral-comment-txt-color: rgb(238, 238, 238);
+    --default-input-bg-selected: rgb(219, 219, 219);
+
+    --post-card-border: rgb(0, 0, 0);
+    --post-box-shadow: rgb(0, 0, 0);
+    --comment-shadow: rgb(220, 95, 0);
+
+    --dropdown-button-bg: rgb(104, 109, 118);
+    --dropdown-button-bg-hvr: rgb(134, 140, 151);
+
+    --default-post-dialog-border: rgb(0, 0, 0);
+    --dialog-bg: rgba(0, 0, 0, 0.55);
+
+    --options-dialog-window-bg: rgb(104, 109, 118);
+    --options-dialog-button-hvr: rgb(220, 95, 0);
+
+    --submit-button-color: rgb(0, 128, 0);
+    --submit-button-color-hvr: rgb(154, 205, 50);
+
+    --auth-form-submit-button: rgb(104, 109, 118);
+    --auth-form-submit-button-hvr: rgb(238, 238, 238);
+    --auth-method-button-color-hvr: rgb(154, 220, 0);
+    --auth-input-txt-color: rgb(0, 0, 0);
+
+    --default-icon-color: rgb(255, 255, 255);
+    --active-icon-color: rgb(255, 255, 255);
+    --box-icon: rgb(255, 255, 255);
+    --box-icon-hvr: rgb(220, 95, 0);
+
+    --settings-username-change-container: rgb(220, 95, 0);
+    --settings-bg-color: rgb(55, 58, 64);
+
+    --account-menu-bg: rgb(55, 58, 64);
+    --account-menu-selected: rgb(238, 238, 238);
+    --account-menu-not-selected-hvr: rgba(0, 0, 0, 0.185);
+    --selected-icon-fill: rgb(0, 0, 0);
+
+    --search-bar-bg: rgb(55, 58, 64);
+    --search-bar-filter-icon-fill: rgb(255, 111, 0);
+    --search-bar-txt-color: rgb(255, 255, 255);
+
+    --delete-account-button-txt: rgb(255, 255, 255);
+    --delete-clear-button: rgb(195, 0, 0);
+    --delete-clear-button-hvr: rgb(255, 0, 0);
+
+    --filter-box-bg: rgb(55, 58, 64);
+    --filter-box-txt-color: rgb(255, 255, 255);
+    --theme-list-container-bg: rgb(104, 109, 118);
+}
+
+.blue {
+    --bg-color: rgb(167, 230, 255);
+    --secondary-bg-color: rgb(53, 114, 239);
+
+    --info-input-bg: rgb(58, 190, 249);
+    --info-txt-color: rgb(238, 238, 238);
+    --input-placeholder-color: rgb(55, 255, 255);
+    --neutral-txt-color: rgb(0, 0, 0);
+    --comment-txt-typing-color: rgb(0, 0, 0);
+    --neutral-comment-txt-color: rgb(73, 73, 73);
+    --default-input-bg-selected: rgb(5, 12, 156);
+
+    --post-card-border: rgb(0, 0, 0);
+    --post-box-shadow: rgb(0, 0, 0);
+    --comment-shadow: rgb(0, 88, 220);
+
+    --dropdown-button-bg: rgb(5, 12, 156);
+    --dropdown-button-bg-hvr: rgb(5, 15, 196);
+
+    --default-post-dialog-border: rgb(0, 0, 0);
+    --dialog-bg: rgba(0, 0, 0, 0.55);
+
+    --options-dialog-window-bg: rgb(58, 190, 249);
+    --options-dialog-button-hvr: rgb(5, 12, 156);
+
+    --submit-button-color: rgb(0, 128, 0);
+    --submit-button-color-hvr: rgb(154, 205, 50);
+
+    --auth-form-submit-button: rgb(167, 230, 255);
+    --auth-form-submit-button-hvr: rgb(58, 190, 249);
+    --auth-method-button-color-hvr: rgb(220, 0, 110);
+    --auth-input-txt-color: rgb(255, 255, 255);
+
+    --default-icon-color: rgb(0, 0, 0);
+    --active-icon-color: rgb(167, 230, 255);
+    --box-icon: rgb(255, 255, 255);
+    --box-icon-hvr: rgb(240, 240, 240);
+
+    --settings-username-change-container: rgb(53, 114, 239);
+    --settings-bg-color: rgb(5, 12, 156);
+
+    --account-menu-bg: rgb(53, 114, 239);
+    --account-menu-selected: rgb(58, 190, 249);
+    --account-menu-not-selected-hvr: rgb(5, 12, 156);
+    --selected-icon-fill: rgb(255, 255, 255);
+
+    --search-bar-bg: rgb(53, 114, 239);
+    --search-bar-filter-icon-fill: rgb(167, 230, 255);
+    --search-bar-txt-color: rgb(255, 255, 255);
+
+    --delete-account-button-txt: rgb(255, 255, 255);
+    --delete-clear-button: rgb(195, 0, 0);
+    --delete-clear-button-hvr: rgb(255, 0, 0);
+
+    --filter-box-bg: rgb(53, 114, 239);
+    --filter-box-txt-color: rgb(255, 255, 255);
+    --theme-list-container-bg: rgb(156, 135, 123);
+}
