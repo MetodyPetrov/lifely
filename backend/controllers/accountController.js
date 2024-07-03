@@ -40,7 +40,7 @@ router.post('/register', async (req, res) => {
         const collection = await getCollection('accounts');
 
         const account = req.body;
-        if(account.password === 'deleted-user') {
+        if(account.username === 'deleted-user') {
             res.status(200).json({ message: 'Invalid username' });
             return;
         }
@@ -69,6 +69,7 @@ router.post('/register', async (req, res) => {
 
         const hashedPassword = await bcrypt.hash(account.password, 10);
         account.password = hashedPassword;
+        
         await collection.insertOne(account);
 
         const result = getAuthResults(account);
