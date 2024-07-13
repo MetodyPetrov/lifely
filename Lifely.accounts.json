@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "662d1432c9e53987cd8e8930"
+  },
+  "password": "$2b$10$w5HlkfxVb/sTSasg4wliU.umyU7n8Ub87srG0CU/2YrdEK7VdgLVi",
+  "username": "Metodi"
+},
+{
+  "_id": {
+    "$oid": "6669d50967abc3f22071bd51"
+  },
+  "username": "John Doe",
+  "password": "$2b$10$t8WlInFWh6zALM9QUSaJKOvpzhU/6jcIFNyi4qih5/OTmnBrgjAX2"
+},
+{
+  "_id": {
+    "$oid": "6669d67c67abc3f22071bd54"
+  },
+  "username": "Jane Doe",
+  "password": "$2b$10$T3nTGLOn1R4KMUv.yHXd7OvKBB.2NQ3y6rNFttPIrBa7pHF9nw4xi"
+}]

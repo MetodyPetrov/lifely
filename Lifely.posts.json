@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "6669d2d767abc3f22071bd4d"
+  },
+  "title": "Beautiful Garden",
+  "imgUrl": "https://cdn.pixabay.com/photo/2012/08/06/00/53/bridge-53769_1280.jpg",
+  "description": "With a cool bridge!",
+  "uploadedBy": "Metodi",
+  "date": "12/05/2024",
+  "comments": [
+    {
+      "user": "Jane Doe",
+      "comment": "agreed",
+      "id": {
+        "$oid": "6669d6c067abc3f22071bd56"
+      }
+    },
+    {
+      "user": "John Doe",
+      "comment": "It is indeed!",
+      "id": {
+        "$oid": "6669d63267abc3f22071bd53"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6669d3c367abc3f22071bd4f"
+  },
+  "title": "The Eiffel Tower",
+  "imgUrl": "https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "description": "The tower is 330 metres!",
+  "uploadedBy": "Metodi",
+  "date": "12/05/2024"
+},
+{
+  "_id": {
+    "$oid": "6669d4ea67abc3f22071bd50"
+  },
+  "title": "Honeycomb",
+  "imgUrl": "https://images.unsplash.com/photo-1718146921295-700b969e7c78?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "description": "",
+  "uploadedBy": "Metodi",
+  "date": "12/05/2024",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "6669d62467abc3f22071bd52"
+  },
+  "title": "Burgas ",
+  "imgUrl": "https://cdn.pixabay.com/photo/2016/10/08/18/07/burgas-1724241_1280.jpg",
+  "description": "The Pier of Burgas.",
+  "uploadedBy": "John Doe",
+  "date": "12/05/2024",
+  "comments": [
+    {
+      "user": "Jane Doe",
+      "comment": "Highly recommend this destination!",
+      "id": {
+        "$oid": "6669d6a767abc3f22071bd55"
+      }
+    }
+  ]
+}]
